@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     // MARK: IBOutlets & Views
-    @IBOutlet var cardButtons: [UIButton]!
+    @IBOutlet var cardButtons: [UIButton]! // arr of buttons
     
     // MARK: - Properties
     
@@ -37,12 +37,19 @@ extension ViewController {
 }
 
 // MARK: - Private methods
+//private func updateButtonsFromModel() {
+//    for index in cardButtons.indices {
+//        let button = cardButtons[index]
+//        button.setTitle(String (index) , for: .normal)
+//    }
+//}
+
 private extension ViewController {
     func updateButtonFromModel() {
-        for index in cardButtons.indices {
+        for index in cardButtons.indices { // gives index for each card
             let button = cardButtons[index]
             button.setTitle( String (index), for: .normal)
-            if index < 12 {
+            if index < 12 { // turn down half of cards on the begginnign of a game
                 button.backgroundColor = #colorLiteral(red: 0.7254902124, green: 0.4784313738, blue: 0.09803921729, alpha: 1)
             }
         }

@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		692A61D424FD39B0008F140B /* SetCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692A61D324FD39B0008F140B /* SetCardDeck.swift */; };
+		692A61D624FD3C6B008F140B /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692A61D524FD3C6B008F140B /* SetGame.swift */; };
 		69928C3E24CEF31000021C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69928C3D24CEF31000021C76 /* AppDelegate.swift */; };
 		69928C4024CEF31000021C76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69928C3F24CEF31000021C76 /* SceneDelegate.swift */; };
 		69928C4224CEF31000021C76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69928C4124CEF31000021C76 /* ViewController.swift */; };
 		69928C4524CEF31000021C76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69928C4324CEF31000021C76 /* Main.storyboard */; };
 		69928C4724CEF31500021C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69928C4624CEF31500021C76 /* Assets.xcassets */; };
 		69928C4A24CEF31500021C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69928C4824CEF31500021C76 /* LaunchScreen.storyboard */; };
+		69928C5324CF04CF00021C76 /* SetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69928C5224CF04CF00021C76 /* SetCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		692A61D324FD39B0008F140B /* SetCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCardDeck.swift; sourceTree = "<group>"; };
+		692A61D524FD3C6B008F140B /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
 		69928C3A24CEF31000021C76 /* SetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69928C3D24CEF31000021C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69928C3F24CEF31000021C76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		69928C4624CEF31500021C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69928C4924CEF31500021C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69928C4B24CEF31500021C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69928C5224CF04CF00021C76 /* SetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				69928C4124CEF31000021C76 /* ViewController.swift */,
+				69928C5224CF04CF00021C76 /* SetCard.swift */,
+				692A61D324FD39B0008F140B /* SetCardDeck.swift */,
+				692A61D524FD3C6B008F140B /* SetGame.swift */,
 				69928C4324CEF31000021C76 /* Main.storyboard */,
 				69928C5124CEF45600021C76 /* SupportingFiles */,
 				69928C4B24CEF31500021C76 /* Info.plist */,
@@ -146,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				692A61D424FD39B0008F140B /* SetCardDeck.swift in Sources */,
 				69928C4224CEF31000021C76 /* ViewController.swift in Sources */,
 				69928C3E24CEF31000021C76 /* AppDelegate.swift in Sources */,
+				69928C5324CF04CF00021C76 /* SetCard.swift in Sources */,
+				692A61D624FD3C6B008F140B /* SetGame.swift in Sources */,
 				69928C4024CEF31000021C76 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XTSP52HLD;
 				INFOPLIST_FILE = SetApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XTSP52HLD;
 				INFOPLIST_FILE = SetApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
